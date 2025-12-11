@@ -6,7 +6,7 @@
 /*   By: tsignori <tsignori@student.42perpignan.fr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/06 11:49:53 by tsignori          #+#    #+#             */
-/*   Updated: 2025/12/09 19:22:16 by tsignori         ###   ########.fr       */
+/*   Updated: 2025/12/11 16:08:16 by tsignori         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,8 @@ typedef struct s_fheap {
 	void			*base;
 	f_size			capacity;
 	f_size			offset;
-	f_size			bitset_chunks;
+	f_size			bitset_csize;
+	f_size			nb_chunks;
 	f_size			bitset_size;
 	unsigned char	*bitset;
 	const heap_vtbl	*vptr;
