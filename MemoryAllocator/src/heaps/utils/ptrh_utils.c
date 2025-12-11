@@ -6,7 +6,7 @@
 /*   By: tsignori <tsignori@student.42perpignan.fr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/06 16:39:04 by tsignori          #+#    #+#             */
-/*   Updated: 2025/12/09 20:51:50 by tsignori         ###   ########.fr       */
+/*   Updated: 2025/12/10 15:34:04 by tsignori         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,7 @@ void	ptr_init(void *heap)
 		return;
 	}
 	central = get_central();
-	tmp->id = ptr_HEAP;
+	tmp->id = PTR_HEAP;
 	tmp->capacity = 1024ULL * 1024ULL * 4;
 	tmp->bitset_chunks = 8;
 	tmp->offset = 0;
